@@ -1,0 +1,55 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "lightmanscurrency:block/block1_2",
+	"texture_size": [64, 64],
+	"elements": [
+		{
+			"name": "DoorTop",
+			"from": [0, 16, 12],
+			"to": [16, 32, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 39, 20]},
+			"color": 7,
+			"faces": {
+				"north": {"uv": [16, 32, 0, 48], "texture": "#missing"},
+				"east": {"uv": [15, 32, 16, 48], "texture": "#missing"},
+				"south": {"uv": [0, 32, 16, 48], "texture": "#missing"},
+				"west": {"uv": [0, 32, 1, 48], "texture": "#missing"},
+				"up": {"uv": [0, 32, 16, 33], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "DoorBottom",
+			"from": [0, 4, 12],
+			"to": [16, 16, 13],
+			"rotation": {"angle": 0, "axis": "y", "origin": [9, 12, 20]},
+			"color": 8,
+			"faces": {
+				"north": {"uv": [16, 48, 0, 60], "texture": "#missing"},
+				"east": {"uv": [15, 48, 16, 60], "texture": "#missing"},
+				"south": {"uv": [0, 48, 16, 60], "texture": "#missing"},
+				"west": {"uv": [0, 48, 1, 60], "texture": "#missing"},
+				"down": {"uv": [0, 59, 16, 60], "texture": "#missing"}
+			}
+		},
+		{
+			"name": "Handle-Bottom",
+			"from": [0, 16, 13],
+			"to": [1, 20, 15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 24, 21]},
+			"color": 2,
+			"faces": {
+				"east": {"uv": [2, 60, 0, 64], "texture": "#missing"},
+				"south": {"uv": [1, 60, 2, 64], "texture": "#missing"},
+				"west": {"uv": [0, 60, 2, 64], "texture": "#missing"},
+				"up": {"uv": [2, 60, 3, 62], "texture": "#missing"},
+				"down": {"uv": [3, 62, 4, 60], "texture": "#missing"}
+			}
+		}
+	],
+	"display": {
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [7.5, 8, 4.5]
+		}
+	}
+}
